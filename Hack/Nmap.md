@@ -3,7 +3,7 @@
 探测主机：`sudo nmap -sT --min-rate 10000 -p- 192.168.208.2`
 -oA xx(以全格式输出到txt)
 
-提取nmap扫描出的端口：`grep open nmapscan/port.nmap | awk -F '/' '{print $1}" | paste -sd ","`
+提取nmap扫描出的端口：`grep open nmap/TCP.nmap | awk -F '/' '{print $1}" | paste -sd ","`
 
 nmap最重扫描：`sudo nmap -sT -sC -sV -O -p[端口] [ip] -oA xx`
 
