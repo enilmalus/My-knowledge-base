@@ -1,6 +1,6 @@
 
 本地主机发现：`sudo nmap -sn [ip].0/24`
-探测主机：`sudo nmap -sT --min-rate 10000 -p- 192.168.208.2`
+探测主机：`sudo nmap -sT --min-rate 10000 -p- 192.168.204.131`
 -oA xx(以全格式输出到txt)
 
 提取nmap扫描出的端口：`grep open nmap/TCP.nmap | awk -F '/' '{print $1}" | paste -sd ","`
