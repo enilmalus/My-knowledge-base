@@ -3,13 +3,13 @@
 探测主机：`sudo nmap -sT --min-rate 10000 -p- 192.168.204.131`
 -oA xx(以全格式输出到txt)
 
-提取nmap扫描出的端口：`grep open nmap/TCP.nmap | awk -F '/' '{print $1}" | paste -sd ","`
+提取nmap扫描出的端口：`grep "open" nmap/TCP.nmap | awk -F '/' '{print $1}' | paste -sd ","`
 
-nmap最重扫描：`sudo nmap -sT -sC -sV -O -p[端口] [ip] -oA xx`
+nmap最重扫描：`sudo nmap -sT -sC -sV -O -p22,25,80,110,111,139,143,445,901,3306,41930 192.168.204.131 -oA nmap/AAA`
 
-UDP扫描：`sudo nmap -sU --top-ports 20 [ip] -oA nmapscan/UDP`
+UDP扫描：`sudo nmap -sU --top-ports 20 192.168.204.131 -oA nmapscan/UDP`
 
-默认脚本扫描： `sudo nmap --script=vuln -p[端口] [ip] -oA xx`
+默认脚本扫描： `sudo nmap --script=vuln -p22,25,80,110,111,139,143,445,901,3306,41930 192.168.204.131 -oA nmap/script`
 
 whois脚本扫描：``sudo nmap --script=whois-domain [ip] -oA xx``
 
