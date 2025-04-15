@@ -1,8 +1,5 @@
 ### 查看当前用户
-whoami
-id
-uname -a
-uname -m
+cl
 
 ### 查看当前目录
 pwd
