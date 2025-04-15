@@ -5,11 +5,11 @@
 
 提取nmap扫描出的端口：`grep "open" nmap/TCP.nmap | awk -F '/' '{print $1}' | paste -sd ","`
 
-nmap最重扫描：`sudo nmap -sT -sC -sV -O -p22,25,80,110,111,139,143,445,901,3306,41930 192.168.204.132 -oA nmap/AAA`
+nmap最重扫描：`sudo nmap -sT -sC -sV -O -p22,80,139,901,8080,10000 192.168.204.132 -oA nmap/AAA`
 
-UDP扫描：`sudo nmap -sU --top-ports 20 192.168.204.132 -oA nmapscan/UDP`
+UDP扫描：`sudo nmap -sU --top-ports 20 192.168.204.132 -oA nmap/UDP`
 
-默认脚本扫描： `sudo nmap --script=vuln -p22,25,80,110,111,139,143,445,901,3306,41930 192.168.204.132 -oA nmap/script`
+默认脚本扫描： `sudo nmap --script=vuln -p22,80,139,901,8080,10000 192.168.204.132 -oA nmap/script`
 
 whois脚本扫描：``sudo nmap --script=whois-domain 192.168.204.132 -oA nmap/whoifs``
 
