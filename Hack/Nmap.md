@@ -11,9 +11,7 @@ UDP扫描：`sudo nmap -sU --top-ports 20 192.168.204.131 -oA nmapscan/UDP`
 
 默认脚本扫描： `sudo nmap --script=vuln -p22,25,80,110,111,139,143,445,901,3306,41930 192.168.204.131 -oA nmap/script`
 
-whois脚本扫描：``sudo nmap --script=whois-domain [ip] -oA xx``
-
-检测cve: ``nmap -p3306 --script mysql-vuln-cve2012-2122 192.168.204.131``
+whois脚本扫描：``sudo nmap --script=whois-domain 192.168.204.131 -oA nmap/whois``
 
 穿透防火墙扫描：`sudo nmap -Pn -A [ip]
 `
