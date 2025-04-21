@@ -4,4 +4,6 @@
 
 标题：searchsploit -t windows 10
 
-使用: cp /usr/.. /../..
+使用: cp /usr/..
+
+searchsploit simple php blog -m 1191
