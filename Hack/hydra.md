@@ -3,3 +3,4 @@
 
 ### 单个
     sudo hydra -l "aaa" -P wordlist.txt
+
