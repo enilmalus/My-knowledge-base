@@ -1,4 +1,4 @@
-    sudo ftp 10.10.10.16
+    sudo ftp -p 10.10.10.16
 
     ls/dir
 
