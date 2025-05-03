@@ -11,8 +11,8 @@ Title
 
 ### 强调
 ##### 粗体
-`**string**`
-`__string__`
+`This is a **string txt**`
+This is a __string txt__`
 `str**in**g`
 
 This is a **string txt**
@@ -71,4 +71,8 @@ you a*r*e pig
 
 
 ### 链接
-`这是marcdown语法摘要`
+`这是[marcdown语法摘要](https://github.com/enilmalus/My-knowledge-base/blob/main/misc/marcdown.md)`
+这是[marcdown语法摘要](https://github.com/enilmalus/My-knowledge-base/blob/main/misc/marcdown.md)
+
+`<https://github.com/enilmalus/My-knowledge-base/blob/main/misc/marcdown.md>`
+<https://github.com/enilmalus/My-knowledge-base/blob/main/misc/marcdown.md>
