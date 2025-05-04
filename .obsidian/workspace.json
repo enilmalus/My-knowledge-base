@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack/gobuster.md",
+                "file": "Hack/渗透测试精要/常见密码攻击速查.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gobuster"
+              "title": "常见密码攻击速查"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "port/常见端口大全.md",
+                "file": "Hack/渗透测试精要/常见服务攻击命令速查.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "常见端口大全"
+              "title": "常见服务攻击命令速查"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hack/gobuster.md",
+                "file": "Hack/渗透测试精要/常见密码攻击速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "gobuster 的反向链接列表"
+              "title": "常见密码攻击速查 的反向链接列表"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hack/gobuster.md",
+                "file": "Hack/渗透测试精要/常见密码攻击速查.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "gobuster 的出链列表"
+              "title": "常见密码攻击速查 的出链列表"
             }
           },
           {
@@ -162,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hack/gobuster.md",
+                "file": "Hack/渗透测试精要/常见密码攻击速查.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "gobuster 的大纲"
+              "title": "常见密码攻击速查 的大纲"
             }
           }
         ],
@@ -188,38 +188,45 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a7ff542767f4b292",
+  "active": "fec39056348cb01c",
   "lastOpenFiles": [
-    "Hack/渗透测试精要/网站枚举.md",
+    "Pasted image 20250504102337.png",
+    "Pasted image 20250504102315.png",
+    "Pasted image 20250504102258.png",
+    "Pasted image 20250504102233.png",
+    "Pasted image 20250504102221.png",
+    "Pasted image 20250504102145.png",
+    "Pasted image 20250504102127.png",
+    "Pasted image 20250504102046.png",
+    "Pasted image 20250504102027.png",
+    "Pasted image 20250504101957.png",
+    "Hack/渗透测试精要/常见服务攻击命令速查.md",
+    "Hack/渗透测试精要/常见密码攻击速查.md",
+    "Pasted image 20250504101852.png",
+    "windows基础/命令速查表.md",
+    "port/常见端口大全.md",
+    "port/samba.md",
+    "Hack/Linux 提权.md",
+    "Hack/hashcat.md",
     "Hack/gobuster.md",
+    "Hack/ftp.md",
+    "Hack/crackmapexec.md",
+    "Hack/越权.md",
+    "Hack/渗透测试精要/有用的网站.md",
+    "Hack/渗透测试精要/提权.md",
+    "misc/knowloge-misc/webroot位置.md",
+    "misc/knowloge-misc/shell分类.md",
+    "Hack/渗透测试精要/使用shell.md",
     "Hack/渗透测试精要/公共漏洞利用.md",
+    "Hack/Reshell.md",
+    "Hack/Searchsploit.md",
+    "Hack/渗透测试精要/常用字典.md",
+    "Hack/渗透测试精要/网站枚举.md",
     "Hack/smbclient.md",
     "Hack/渗透测试精要/服务扫描.md",
-    "port/samba.md",
-    "Hack/ftp.md",
-    "Hack/渗透测试精要/使用shell.md",
-    "Hack/渗透测试精要/提权.md",
     "Hack/渗透测试精要/文件传输.md",
-    "port/常见端口大全.md",
-    "misc/knowloge-misc/shell分类.md",
-    "Pasted image 20250503233701.png",
     "misc/knowloge-misc/TCP-UDP.md",
-    "Pasted image 20250503233500.png",
-    "c2fe3286cb04bc0a7de49cebe324f4b.jpg",
-    "misc/marcdown.md",
     "misc/knowloge-misc",
-    "misc/TCP-UDP.md",
-    "Hack/越权.md",
-    "Hack/sql inject.md",
-    "Hack/sqlmap.md",
-    "Hack/Searchsploit.md",
-    "Hack/Reshell.md",
-    "Hack/Nmap.md",
-    "Hack/msfvenom.md",
-    "Hack/msfconsole.md",
-    "Hack/misc.md",
-    "Hack/Linux 提权.md",
-    "Hack/john.md",
     "未命名.canvas"
   ]
 }
