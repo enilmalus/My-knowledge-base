@@ -12,6 +12,7 @@ export TERM=xterm-color
 
 ``rlwrap nc -lvnp <port>``
 
+---
 ## 手工枚举
 ```
 id:显示当前⽤户的 UID（⽤户 ID）、GID（组 ID）以及所属的其他组的信息
@@ -90,6 +91,8 @@ cat /etc/fstab:检测未挂载的⽂件系统
 ```
 
 
+---
+
 ## 自动化枚举
 ### LinPEAS
 
@@ -125,6 +128,10 @@ Github:https://github.com/sleventyeleven/linuxprivchecker
 Github:https://github.com/pentestmonkey/unix-privesc-check
 
 
+
+
+---
+
 ## sudo
 ### 列出可用sudo权限
     sudo -l
@@ -133,6 +140,9 @@ Github:https://github.com/pentestmonkey/unix-privesc-check
 ### 切换到root用户（如果我们有访问sudo su的权限）
     sudo su -
 
+---
+
+## 非对称加密
 ### 创建新的SSH密钥
     ssh-keygen -f key
 ### 将生成的公钥添加到用户
@@ -143,8 +153,4 @@ Github:https://github.com/pentestmonkey/unix-privesc-check
 ### 枚举脚本
 	PEASS
 
-### 易受攻击的软件
-#### linux
-	dpkg -l
-#### windows
-	查看C:\Program Files
+---
