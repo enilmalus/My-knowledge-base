@@ -1,4 +1,4 @@
-### 进入
+iwii### 进入
 
     tmux
 
@@ -25,3 +25,7 @@
 ### 向右切换
 
     ctrl+b ->
+
+### clear
+`export TERM=xterm-256color`
+
