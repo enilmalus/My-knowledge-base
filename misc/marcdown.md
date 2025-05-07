@@ -1,78 +1,13 @@
-### 标题
-`#      一级标题`
-`##     二级标题`
-`...`
-`###### 六级标题`
-`以此类推`
+# Marcdown 语法速查表
 
-### 段落
-This is a test
-Title
-
-### 强调
-##### 粗体
-`This is a **string txt**`
-This is a __string txt__`
-`str**in**g`
-
-This is a **string txt**
-This is a __string txt__
-str**in**g
-
-#### 斜体
-`*txt*`
-`t*x*t`
-
-*you are pig* 
-you a*r*e pig 
-
-#### 粗斜体
-`***`
-
-***university*** 
-
-### 引用
-`>  一级引用`
-`>> 二级引用`
-
->我爱Marcbark
->>你也爱Marcbark吗
-
-### 列表
-##### 有序列表
-`1. aaa`
-`2. bbb`
-`3. ccc`
-`数字可以随便取,但必须从1开始,例如1. 1. 1. 1.或者1. 2. 3. 4.`
-
-#### 无序列表
-`- or * or +`
-
-- first
-- second
-	- second one
-- third
-
-### 代码
-```
-`txt` or ``txt``
-```
-
-
-### 分隔符
-`*** or ---`
-
-
-我是上文本
-
----
-
-我是下文本
-
-
-### 链接
-`这是[marcdown语法摘要](https://github.com/enilmalus/My-knowledge-base/blob/main/misc/marcdown.md)`
-这是[marcdown语法摘要](https://github.com/enilmalus/My-knowledge-base/blob/main/misc/marcdown.md)
-
-`<https://github.com/enilmalus/My-knowledge-base/blob/main/misc/marcdown.md>`
-<https://github.com/enilmalus/My-knowledge-base/blob/main/misc/marcdown.md>
+| 用法                                              | 解释                                                  | 示例                                                              |
+| ----------------------------------------------- | --------------------------------------------------- | --------------------------------------------------------------- |
+| #<br><br>##<br><br>###<br><br>...<br><br>###### | 一级标题<br><br>二级标题<br><br>三级标题<br><br>...<br><br>六级标题 | # A<br><br>## BB<br><br>### CCC<br><br>...<br><br>###### FFFFFF |
+| \*\* 粗体 \*\*                                    | 加粗                                                  | ** 粗体 **                                                        |
+| \* 斜体 \*                                        | 斜体                                                  | *斜体*                                                            |
+| > 引用块                                           | 引用块                                                 | > AAA                                                           |
+| 1. aaa<br><br>2. bbb<br><br>3. ccc              | 有序标题                                                |                                                                 |
+| - aaa <br><br>- aaa                             | 无序标题                                                |                                                                 |
+| \` 代码 \`                                        | 代码引用                                                | `代码`                                                            |
+| ---                                             | 分割线                                                 |                                                                 |
+| \[title](链接)                                    | 引用链接                                                |                                                                 |
