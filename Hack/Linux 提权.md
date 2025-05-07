@@ -56,9 +56,9 @@
 
 	4.  John 破解
 
-```
+		```
 		 sudo john hash/hash.lst --wordlist=/usr/share/wordlists/rockyou.txt
-```
+		```
 
 - 可写 Shadow
 
