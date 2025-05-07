@@ -112,63 +112,73 @@ cat /etc/fstab:检测未挂载的⽂件系统
 
 
 ## 自动化枚举
+
 ### LinPEAS
 
-全称为Linux Privilege Escalation Awesome Script，是⼀个⽤来搜索类unix主机上可能
+全称为 Linux Privilege Escalation Awesome Script ，是⼀个⽤来搜索类 unix 主机上可能
 的提权路径的⾃动化脚本。
-Github:https://github.com/peass-ng/PEASS-ng
+
+Github：https://github.com/peass-ng/PEASS-ng
+
 ```
 curl -L https://github.com/carlospolop/PEASSng/releases/latest/download/linpeas.sh | sh
 ```
 
 ### LinEnum
+
 ⼀个流⾏的 Linux 本地枚举脚本，⽤于收集有关系统的各种信息，识别不安全的配置，
 提取可⽤于提升权限的漏洞信息
-Github:https://github.com/rebootuser/LinEnum
 
-### linux-smart-enumeration (lse)
+Github：https://github.com/rebootuser/LinEnum
+
+### linux-smart-enumeration （lse）
+
 这是⼀个具有模块化功能的 Linux 本地枚举脚本它可在不同的等级上运⾏以获取不同详细程度的信息
-Github:https://github.com/diego-treitos/linux-smart-enumeration
+
+Github：https://github.com/diego-treitos/linux-smart-enumeration
 
 ### linux-exploit-suggester
+
 该⼯具主要⽤于识别 Linux 系统中可能存在的可利⽤的漏洞，
 以帮助⽤户提升权限。
-Github:https://github.com/The-Z-Labs/linux-exploit-suggester
+
+Github：https://github.com/The-Z-Labs/linux-exploit-suggester
 
 ### Linuxprivchecker
+
 ⼀个⽤于检查 Linux 系统潜在安全问题的 Python 脚本，
 包括⽂件权限、系统服务和 SUID ⼆进制⽂件等。 
-Github:https://github.com/sleventyeleven/linuxprivchecker
+
+Github：https://github.com/sleventyeleven/linuxprivchecker
 
 ### unix-privesc-check
+
 这个脚本主要⽤于识别 类UNIX 系统中可能的权限升级路径，
 通过检查⽂件权限、系统配置等⽅⾯的问题
-Github:https://github.com/pentestmonkey/unix-privesc-check
 
+Github：https://github.com/pentestmonkey/unix-privesc-check
 
-
-
----
-
-## sudo
-### 列出可用sudo权限
-    sudo -l
-### 用sudo运行命令
-    sudo -u Enil /bin/echo Hello World!
-### 切换到root用户（如果我们有访问sudo su的权限）
-    sudo su -
-
----
 
 ## 非对称加密
-### 创建新的SSH密钥
+
+-  创建新的SSH密钥
+
+```
     ssh-keygen -f key
-### 将生成的公钥添加到用户
+```
+
+-  将生成的公钥添加到用户
+
+```
     echo "ssh-rsa AAAAB...SNIP...M= enil@aaa">> /root/.ssh/authorized_keys
-### 使用生成的私钥SSH连接到服务器
+```
+-  使用生成的私钥SSH连接到服务器
+
+```
     ssh root@10.10.10.10 -i key
+```
+-  枚举脚本
 
-### 枚举脚本
+```
 	PEASS
-
----
+```
