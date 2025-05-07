@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "misc/marcdown.md",
+                "file": "misc/Tmux语法速查表.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "marcdown"
+              "title": "Tmux语法速查表"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "misc/marcdown.md",
+                "file": "misc/Tmux语法速查表.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "marcdown"
+              "title": "Tmux语法速查表"
             }
           }
         ]
@@ -189,12 +189,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "777786160fe1c733",
+  "active": "6553526b02b6feb9",
   "lastOpenFiles": [
-    "misc/docker.md",
-    "misc/marcdown.md",
+    "misc/Marcdown语法速查表.md",
+    "misc/Tmux语法速查表.md",
     "misc/vim.md",
-    "misc/tmux.md",
+    "misc/docker.md",
     "Hack/linux基础/linux默认文件.md",
     "Hack/linux基础/linux command.md",
     "misc/knowloge-misc/webroot位置.md",
