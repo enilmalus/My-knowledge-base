@@ -4,4 +4,6 @@
 
 ```
 	/home/kali/.ssh/authorized_keys
+
+	/home/kali/.ssh/id_rsa
 ```
