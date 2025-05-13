@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阶段性学习进展/第一阶段 --- 前 20 台.md",
+                "file": "靶场小记/Empire Breakout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第一阶段 --- 前 20 台"
+              "title": "Empire Breakout"
             }
           },
           {
@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack/Linux 基础/Linux 提权.md",
+                "file": "阶段性学习进展/第一阶段 --- 前 20 台.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux 提权"
+              "title": "第一阶段 --- 前 20 台"
             }
           }
         ]
@@ -219,11 +219,14 @@
   },
   "active": "6553526b02b6feb9",
   "lastOpenFiles": [
+    "图片/d67a1acfef38eba03ae5796c16511061.png",
+    "阶段性学习进展/第一阶段 --- 前 20 台.md",
+    "Hack/Linux 基础/Linux 提权.md",
+    "靶场小记/Empire Breakout.md",
     "靶场小记/EvilBox One.md",
     "靶场小记/EvilBox One aaaa.md",
     "图片/Pasted image 20250511211927.png",
     "图片/Pasted image 20250511211857.png",
-    "Hack/Linux 基础/Linux 提权.md",
     "Hack/工具小记/John.md",
     "图片/Pasted image 20250511211410.png",
     "图片/Pasted image 20250511211114.png",
@@ -242,7 +245,6 @@
     "图片/Pasted image 20250511200428.png",
     "靶场小记/DarkHole.md",
     "靶场小记/NullByte.md",
-    "阶段性学习进展/第一阶段 --- 前 20 台.md",
     "Misc 杂项/生活小妙招",
     "Misc 杂项/速查表/Vim 语法速查表.md",
     "Misc 杂项/速查表/常见服务攻击命令速查.md",
@@ -254,7 +256,6 @@
     "Hack/Linux 基础/Reshell.md",
     "Hack/渗透测试精要/网站枚举.md",
     "Hack/渗透测试精要/文件传输.md",
-    "Hack/Linux 基础/配置网络.md",
     "Hack/漏洞原理小记",
     "未命名",
     "靶场小记",
