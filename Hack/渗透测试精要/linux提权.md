@@ -124,6 +124,10 @@ Github：https://github.com/peass-ng/PEASS-ng
 curl -L https://github.com/carlospolop/PEASSng/releases/latest/download/linpeas.sh | sh
 ```
 
+```
+wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
+```
+
 ### LinEnum
 
 ⼀个流⾏的 Linux 本地枚举脚本，⽤于收集有关系统的各种信息，识别不安全的配置，
