@@ -126,3 +126,4 @@ chmod 777 tar
 
 ![[Pasted image 20250518234002.png]]
 
+拿下机器
