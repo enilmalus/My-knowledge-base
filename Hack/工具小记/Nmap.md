@@ -10,6 +10,8 @@
 
 ```
 	sudo nmap -sT --min-rate 10000 -p- 192.168.204.132 -oA nmap/port`
+
+	sudo nmap --min-rate 10000 -p- 10.10.10.13 | grep -E '^[0-9]+/tcp' | awk -F'/' '{printf "%s%s", sep, $1; sep=","}'
 ```
 
 >	-oA xx（以全格式输出到 txt ）
