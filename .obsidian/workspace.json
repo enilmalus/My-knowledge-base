@@ -4,69 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "1bcfca2422412b35",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6553526b02b6feb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack/Linux 基础/Linux 提权.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linux 提权"
-            }
-          },
-          {
-            "id": "f461d5b4a48309f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hack/渗透测试精要/服务扫描.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "服务扫描"
-            }
-          },
-          {
-            "id": "26abb71797050982",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc 杂项/知识杂项/将网页前端分行.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "将网页前端分行"
-            }
-          },
-          {
-            "id": "aad65478be1f7646",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "靶场小记/Happycorp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Happycorp"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
         "id": "5d7141c0afd69e40",
         "type": "tabs",
         "children": [
@@ -76,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阶段性学习进展/第一阶段 --- 前 20 台.md",
+                "file": "靶场小记/DeathStart.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第一阶段 --- 前 20 台"
+              "title": "DeathStart"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d7dc14b89ed7a9b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d430c179a783af4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hack/工具小记/Nmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nmap"
             }
           }
         ]
@@ -116,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "open",
+                "query": "加密",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux基础/vim.md",
+                "file": "阶段性学习进展/第一阶段 --- 前 20 台.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "vim 的大纲"
+              "title": "第一阶段 --- 前 20 台 的大纲"
             }
           }
         ],
@@ -234,42 +191,42 @@
   },
   "active": "f1b708292e25eb58",
   "lastOpenFiles": [
-    "靶场小记/DarkHole.md",
-    "靶场小记/Happycorp.md",
-    "靶场小记/Momentum2.md",
-    "靶场小记/nagini.md",
-    "靶场小记/EvilBox One.md",
-    "图片/Pasted image 20250622150403.png",
-    "图片/Pasted image 20250622150122.png",
-    "图片/Pasted image 20250622150119.png",
-    "图片/Pasted image 20250622145937.png",
-    "图片/Pasted image 20250622144956.png",
-    "图片/Pasted image 20250622144341.png",
-    "图片/Pasted image 20250622144237.png",
-    "图片/Pasted image 20250622144000.png",
-    "图片/Pasted image 20250622143529.png",
-    "图片/Pasted image 20250622143341.png",
-    "Hack/Linux 基础/Linux 提权.md",
-    "Hack/渗透测试精要/linux提权.md",
-    "Hack/渗透测试精要/有用的网站.md",
-    "Hack/工具小记/John.md",
-    "Hack/工具小记/Mount.md",
-    "Hack/工具小记/Searchsploit.md",
-    "Misc 杂项/技术文档.md",
+    "图片/Pasted image 20250624170238.png",
+    "图片/Pasted image 20250624165405.png",
+    "图片/Pasted image 20250624165218.png",
+    "图片/Pasted image 20250624165103.png",
+    "图片/Pasted image 20250624164959.png",
+    "图片/Pasted image 20250624164912.png",
+    "图片/Pasted image 20250624164737.png",
+    "图片/Pasted image 20250624164707.png",
+    "图片/Pasted image 20250624164338.png",
+    "图片/Pasted image 20250624164218.png",
+    "图片/Pasted image 20250624164208.png",
+    "Hack/工具小记/Nmap.md",
     "阶段性学习进展/第一阶段 --- 前 20 台.md",
-    "Hack/逻辑漏洞相关/短信轰炸.md",
+    "靶场小记/DeathStart.md",
+    "靶场小记/DarkHole.md",
+    "Hack/工具小记/Gdb.md",
+    "靶场小记/py.md",
+    "靶场小记/未命名.md",
+    "Hack/工具小记/Scp.md",
+    "Hack/工具小记/Steghide.md",
+    "Hack/工具小记/Tshark.md",
+    "靶场小记/EvilBox One.md",
+    "靶场小记/nagini.md",
+    "靶场小记/Momentum1.md",
+    "靶场小记/Happycorp.md",
+    "靶场小记/Drifitingblues9.md",
+    "Hack/渗透测试精要/linux提权.md",
+    "Hack/工具小记/Hydra.md",
+    "Hack/工具小记/Exiftool.md",
     "Hack/工具小记/Enum4linux.md",
     "Hack/工具小记/Dnsenum.md",
-    "Hack/工具小记/Nmap.md",
-    "Hack/渗透测试精要/服务扫描.md",
-    "Hack/漏洞原理小记/SSRF 手工注入.md",
-    "Hack/Linux 基础/配置网络.md",
-    "靶场小记/Drifitingblues9.md",
-    "靶场小记/Driftingblues9.md",
-    "Hack/工具小记/Msf.md",
-    "Hack/工具小记/Msfvenom.md",
-    "Hack/工具小记/Msfconsole.md",
+    "Hack/工具小记/Dirsearch.md",
+    "Hack/工具小记/Dig.md",
+    "Hack/渗透测试精要/有用的网站.md",
     "Hack/工具小记/Hashcat.md",
+    "Hack/漏洞原理小记/SQL 注入.md",
     "Misc 杂项/生活小妙招",
     "Hack/漏洞原理小记",
     "未命名",
