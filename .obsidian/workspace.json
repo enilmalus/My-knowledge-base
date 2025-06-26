@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "靶场小记/DeathStart.md",
+                "file": "阶段性学习进展/第二阶段 --- 21-40台.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DeathStart"
+              "title": "第二阶段 --- 21-40台"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack/工具小记/Nmap.md",
+                "file": "靶场小记/pWnOS 1.0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nmap"
+              "title": "pWnOS 1.0"
             }
           }
         ]
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "加密",
+                "query": "id_rsa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,8 +189,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f1b708292e25eb58",
+  "active": "d430c179a783af4c",
   "lastOpenFiles": [
+    "Hack/Linux 基础/Linux默认文件.md",
+    "靶场小记/pWnOS 1.0.md",
+    "图片/Pasted image 20250626212428.png",
+    "阶段性学习进展/第二阶段 --- 21-40台.md",
+    "Hack/工具小记/Hashcat.md",
+    "阶段性学习进展/第一阶段 --- 前 20 台.md",
+    "Hack/工具小记/John.md",
+    "Hack/工具小记/Nmap.md",
+    "Hack/Linux 基础/Linux 提权.md",
+    "Hack/工具小记/Hydra.md",
+    "靶场小记/Happycorp.md",
+    "靶场小记/EvilBox One.md",
+    "Hack/工具小记/Mount.md",
+    "Hack/工具小记/Knock.md",
+    "Hack/Linux 基础/配置网络.md",
+    "靶场小记/DeathStart.md",
     "图片/Pasted image 20250624170238.png",
     "图片/Pasted image 20250624165405.png",
     "图片/Pasted image 20250624165218.png",
@@ -200,33 +216,16 @@
     "图片/Pasted image 20250624164737.png",
     "图片/Pasted image 20250624164707.png",
     "图片/Pasted image 20250624164338.png",
-    "图片/Pasted image 20250624164218.png",
-    "图片/Pasted image 20250624164208.png",
-    "Hack/工具小记/Nmap.md",
-    "阶段性学习进展/第一阶段 --- 前 20 台.md",
-    "靶场小记/DeathStart.md",
     "靶场小记/DarkHole.md",
     "Hack/工具小记/Gdb.md",
     "靶场小记/py.md",
-    "靶场小记/未命名.md",
     "Hack/工具小记/Scp.md",
     "Hack/工具小记/Steghide.md",
     "Hack/工具小记/Tshark.md",
-    "靶场小记/EvilBox One.md",
     "靶场小记/nagini.md",
     "靶场小记/Momentum1.md",
-    "靶场小记/Happycorp.md",
     "靶场小记/Drifitingblues9.md",
     "Hack/渗透测试精要/linux提权.md",
-    "Hack/工具小记/Hydra.md",
-    "Hack/工具小记/Exiftool.md",
-    "Hack/工具小记/Enum4linux.md",
-    "Hack/工具小记/Dnsenum.md",
-    "Hack/工具小记/Dirsearch.md",
-    "Hack/工具小记/Dig.md",
-    "Hack/渗透测试精要/有用的网站.md",
-    "Hack/工具小记/Hashcat.md",
-    "Hack/漏洞原理小记/SQL 注入.md",
     "Misc 杂项/生活小妙招",
     "Hack/漏洞原理小记",
     "未命名",
