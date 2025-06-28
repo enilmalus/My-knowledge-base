@@ -6,7 +6,7 @@
 cat /etc/doas.conf
 ```
 
-![[Pasted image 20250628152343.png]]
+![[图片/Pasted image 20250628152343.png]]
 
 ```
 doas /usr/bin/less /var/log/authlog
