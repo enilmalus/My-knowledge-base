@@ -14,3 +14,12 @@ sudo john hash/hash.lst --wordlist=/usr/share/wordlists/rockyou.txt hash/users.l
 john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa     
 ```
 
+- 破解 7z
+
+```
+/usr/share/john/7z2john.py backup.7z > 7z_hash.txt
+```
+
+```
+john 7z_hash.txt --wordlist=/usr/share/wordlists/rockyou.txt
+```
