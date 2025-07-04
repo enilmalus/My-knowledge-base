@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "靶场小记/FourAndSix2.md",
+                "file": "阶段性学习进展/第二阶段 --- 21-40台.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FourAndSix2"
+              "title": "第二阶段 --- 21-40台"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hack/工具小记/John.md",
+                "file": "Hack/Linux 基础/Linux 提权.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "John"
+              "title": "Linux 提权"
             }
           }
         ]
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "base64",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,30 +191,35 @@
   },
   "active": "f1b708292e25eb58",
   "lastOpenFiles": [
-    "图片/Pasted image 20250628152343.png",
-    "图片/Pasted image 20250628152254.png",
     "Hack/工具小记/John.md",
-    "Hack/工具小记/Hashcat.md",
-    "靶场小记/pWnOS 1.0.md",
-    "靶场小记/FourAndSix2.md",
-    "阶段性学习进展/第二阶段 --- 21-40台.md",
     "Hack/Linux 基础/Linux 提权.md",
-    "靶场小记/DeathStart.md",
-    "Hack/渗透测试精要/linux提权.md",
-    "阶段性学习进展/第一阶段 --- 前 20 台.md",
-    "Hack/渗透测试精要/有用的网站.md",
-    "Hack/Linux 基础/配置网络.md",
-    "Hack/Linux 基础/Kali 自带 Webshell 位置.md",
     "Hack/Linux 基础/Linux默认文件.md",
-    "Hack/Linux 基础/Linux 命令杂项.md",
-    "靶场小记/Credit Card Scammers.md",
-    "图片/Pasted image 20250626212428.png",
-    "Hack/工具小记/Nmap.md",
     "Hack/工具小记/Hydra.md",
+    "Hack/工具小记/Gobuster.md",
+    "阶段性学习进展/第二阶段 --- 21-40台.md",
+    "Hack/Linux 基础/配置网络.md",
+    "Hack/工具小记/Wufzz.md",
+    "靶场小记/Credit Card Scammers.md",
+    "Hack/工具小记/Crunch.md",
+    "Hack/渗透测试精要/文件传输.md",
+    "Hack/渗透测试精要/linux提权.md",
+    "Hack/Linux 基础/Linux 命令杂项.md",
+    "Hack/Linux 基础/Kali 自带 Webshell 位置.md",
+    "Misc 杂项/知识杂项/关于 Linux 各种系统的 Webroot 位置.md",
+    "Misc 杂项/知识杂项/关于 Shell 分类.md",
+    "Hack/工具小记/Msfvenom.md",
+    "Hack/工具小记/Nikto.md",
+    "Hack/工具小记/Msfconsole.md",
+    "Hack/工具小记/Msf.md",
+    "Hack/工具小记/Mount.md",
+    "Hack/工具小记/Gdb.md",
+    "靶场小记/NullByte.md",
     "靶场小记/Happycorp.md",
     "靶场小记/EvilBox One.md",
-    "Hack/工具小记/Mount.md",
-    "Hack/工具小记/Knock.md",
+    "靶场小记/Empire Breakout.md",
+    "图片/Pasted image 20250628152343.png",
+    "图片/Pasted image 20250628152254.png",
+    "图片/Pasted image 20250626212428.png",
     "图片/Pasted image 20250624170238.png",
     "图片/Pasted image 20250624165405.png",
     "图片/Pasted image 20250624165218.png",
@@ -222,11 +227,6 @@
     "图片/Pasted image 20250624164959.png",
     "图片/Pasted image 20250624164912.png",
     "图片/Pasted image 20250624164737.png",
-    "图片/Pasted image 20250624164707.png",
-    "靶场小记/DarkHole.md",
-    "Hack/工具小记/Gdb.md",
-    "靶场小记/py.md",
-    "Hack/工具小记/Scp.md",
     "Misc 杂项/生活小妙招",
     "Hack/漏洞原理小记",
     "未命名",

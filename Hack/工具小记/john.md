@@ -23,3 +23,13 @@ john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa
 ```
 john 7z_hash.txt --wordlist=/usr/share/wordlists/rockyou.txt
 ```
+
+- 破解 zip
+
+```
+sudo /usr/sbin/zip2john flag.zip > flag.txt
+```
+
+```
+john flag.txt --wordlist=/usr/share/wordlists/rockyou.txt
+```

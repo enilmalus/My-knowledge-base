@@ -22,4 +22,6 @@ sudo gobuster dir -u http://10.10.10.18/secret/ -w /usr/share/dirb/wordlists/com
 
 ```
 sudo gobuster dir -u http://10.10.10.31 -w /usr/share/wordlists/dirb/common.txt -x php,php.bak,jsp.zip,html
+
+sudo gobuster dir -u http://10.10.10.40:8000 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,php.bak,jsp,zip,tar,html,txt,tar,tar.gz
 ```
